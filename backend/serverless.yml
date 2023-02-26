@@ -27,7 +27,7 @@ provider:
     PROJECT_NAME: serverless-todo-app2
     TODOS_TABLE: serverless-todo-app2-${self:provider.stage}
     # TODOS_CREATED_AT_INDEX: CreatedAtIndex
-    ATTACHMENT_S3_BUCKET: serverless-todo-app-${self:provider.stage}
+    ATTACHMENT_S3_BUCKET: serverless-todo-app2-${self:provider.stage}
     # SIGNED_URL_EXPIRATION: 300
 
 custom:
